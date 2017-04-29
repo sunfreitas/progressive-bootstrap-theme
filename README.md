@@ -1,2 +1,2 @@
-# progressive-bootstrap-theme
-A Bootstrap theme focused on *Progressive Web Applications*
+# Progressive Bootstrap Theme
+It's a (Bootstrap)[getbootstrap.com] theme focused on *(Progressive Web Applications)[https://developers.google.com/web/progressive-web-apps/]*
