@@ -21,3 +21,24 @@
 .donate-or-hire{
 	background:url(../img/The-Pelourinho-Salvador-Brazil-11.jpg) no-repeat center;
 }
+.section_padding_100{
+	padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+@media(min-width: 320px){
+	.super-hero_presentation{
+		display:table-cell;
+		vertical-align: middle;
+	}
+
+	.call-to-action{
+		padding-top: 20px;
+    	padding-bottom: 20px;
+    	background:rgb(38, 166, 154);
+	}
+
+	.feature{
+		margin-bottom:20px;
+	}
+}
