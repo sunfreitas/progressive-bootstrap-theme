@@ -349,7 +349,7 @@ $screen-sm:                  768px;
 //##
 
 // Basics of a navbar
-$navbar-height:                    72px;
+$navbar-height:                    100px;
 // $navbar-margin-bottom:             $line-height-computed
 $navbar-margin-bottom:             0;
 // $navbar-border-radius:             $border-radius-base
@@ -369,6 +369,7 @@ $navbar-default-border:            none;
 // $navbar-default-link-color:                #777
 $navbar-default-link-color:                rgba(255,255,255,1);
 // $navbar-default-link-hover-color:          #333
+$navbar-default-link-hover-color:          #26a69a;
 // $navbar-default-link-hover-bg:             transparent
 // $navbar-default-link-active-color:         #555
 // $navbar-default-link-active-bg:            darken($navbar-default-bg, 6.5%)
