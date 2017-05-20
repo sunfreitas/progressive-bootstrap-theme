@@ -47,3 +47,15 @@
     	padding: 20px 0;
 	}
 }
+
+@media(min-width:$screen-sm){
+	
+	.navbar.navbar-default{
+		z-index: 1;
+	}
+
+	.navbar-nav > li > a{
+		font-family: 'Anton', 'Arial', sans-serif;
+		font-size:1.8em;
+	}
+}
