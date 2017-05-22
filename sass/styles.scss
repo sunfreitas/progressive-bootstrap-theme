@@ -37,10 +37,27 @@
     z-index:0;
 }
 
+.text-blue{
+	color:rgb(38, 166, 154);
+}
+
 @media(min-width: 320px){
 	.super-hero_presentation{
+		position: relative;
+		z-index: 1;
 		display:table-cell;
 		vertical-align: middle;
+		font-family: 'Anton', Arial, sans-serif;
+		z-index: 3;
+		color:white;
+		border-bottom:1px solid #fff;
+	}
+	.presentation-wrapper{
+		width:50%;
+	}
+	.presentation-title{
+		font-size:4em;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}
 
 	.call-to-action{
