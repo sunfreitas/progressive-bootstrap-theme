@@ -7,12 +7,22 @@
 // Import Bootstrap for Sass
 @import "bootstrap";
 
-// Super Hero
+p{
+	color:rgba(0,0,0,.54);
+}
+
+.text-light{
+	color:rgba(255,255,255,.78);
+}
+
+.text-normal{
+	color:rgba(0,0,0,.78);
+}
+
 .super-hero{
 	padding-top: 100px;
 	margin-top:-102px;
 	background:url(../img/03olinda-carnival-shopping-mecca-palette-inspriation.jpg) no-repeat left bottom;
-	/*position: relative;*/
 }
 
 .portfolio_area{
@@ -42,6 +52,10 @@
 	color:rgb(38, 166, 154);
 }
 
+.heading-min{
+	font-size: 1.6em;
+}
+
 @media(min-width: 320px){
 	.super-hero_presentation{
 		position: relative;
@@ -63,13 +77,16 @@
 		font-size: 2em;
 	}
 	.call-to-action{
-		padding-top: 20px;
-    	padding-bottom: 20px;
+		padding-top: 30px;
+    	padding-bottom: 30px;
     	background:rgb(38, 166, 154);
+    	font-size: 1.4em;
+    	color: rgba(255, 255, 255, .78);
 	}
 
 	.feature{
 		margin-bottom:20px;
+		text-align: center;
 	}
 	.copyright{
 		background: rgb(38, 50, 56);
@@ -79,7 +96,7 @@
 }
 
 @media(min-width:$screen-sm){
-	
+
 	.navbar.navbar-default{
 		z-index: 1;
 	}
