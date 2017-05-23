@@ -9,9 +9,10 @@
 
 // Super Hero
 .super-hero{
+	padding-top: 100px;
 	margin-top:-102px;
-	background:url(../img/EXTERIOR_CQ_SAN-FRANCISCO_0024.jpg) no-repeat center top;
-	position: relative;
+	background:url(../img/03olinda-carnival-shopping-mecca-palette-inspriation.jpg) no-repeat left bottom;
+	/*position: relative;*/
 }
 
 .portfolio_area{
@@ -27,7 +28,7 @@
     padding-bottom: 100px;
 }
 
-.tp-dottedoverlay.twoxtwo {
+/*.tp-dottedoverlay.twoxtwo {
     background: url(../img/gridtile.png);
     width: 100%;
     height: 100%;
@@ -35,7 +36,7 @@
     top: 0px;
     left: 0px;
     z-index:0;
-}
+}*/
 
 .text-blue{
 	color:rgb(38, 166, 154);
@@ -48,18 +49,19 @@
 		display:table-cell;
 		vertical-align: middle;
 		font-family: 'Anton', Arial, sans-serif;
-		z-index: 3;
 		color:white;
-		border-bottom:1px solid #fff;
+		overflow: hidden;
 	}
 	.presentation-wrapper{
+		position: absolute;
 		width:50%;
 	}
 	.presentation-title{
 		font-size:4em;
-		text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 	}
-
+	.presentation-excerpt{
+		font-size: 2em;
+	}
 	.call-to-action{
 		padding-top: 20px;
     	padding-bottom: 20px;
