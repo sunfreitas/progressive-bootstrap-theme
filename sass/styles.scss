@@ -19,11 +19,7 @@ p{
 	color:rgba(0,0,0,.78);
 }
 
-.super-hero{
-	padding-top: 100px;
-	margin-top:-102px;
-	background:url(../img/03olinda-carnival-shopping-mecca-palette-inspriation.jpg) no-repeat left bottom;
-}
+
 
 .portfolio_area{
 	padding:80px 0;
@@ -57,9 +53,19 @@ p{
 }
 
 @media(min-width: 320px){
+
+	.navbar{
+		z-index: 1;
+	}
+
+	.super-hero{
+		/*padding-top: 100px;*/
+		margin-top:-102px;
+		background:url(../img/03olinda-carnival-shopping-mecca-palette-inspriation.jpg) no-repeat left bottom;
+	}
 	.super-hero_presentation{
 		position: relative;
-		z-index: 1;
+		z-index: 0;
 		display:table-cell;
 		vertical-align: middle;
 		font-family: 'Anton', Arial, sans-serif;
@@ -67,14 +73,14 @@ p{
 		overflow: hidden;
 	}
 	.presentation-wrapper{
-		position: absolute;
-		width:50%;
+		/*position: absolute;*/
+		/*width:50%;*/
 	}
 	.presentation-title{
-		font-size:4em;
+		font-size:3em;
 	}
 	.presentation-excerpt{
-		font-size: 2em;
+		font-size: 1.4em;
 	}
 	.call-to-action{
 		padding-top: 30px;
