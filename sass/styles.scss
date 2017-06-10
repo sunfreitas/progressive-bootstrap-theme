@@ -12,10 +12,17 @@ p{
 	color:rgba(0,0,0,.54);
 }
 
-.bar_text-description.light{
+.bar_text-description{
 	color:rgba(255,255,255,1);
 }
-
+.section-title{
+	font-size: 3em;
+	font-family: 'Anton', Arial, sans-serif;
+}
+.light{
+    color: rgba(255, 255, 255, 1);
+}
+    
 .text-light{
 	color:rgba(255,255,255,.78);
 }
