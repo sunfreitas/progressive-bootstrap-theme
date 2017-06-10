@@ -34,10 +34,6 @@ p{
 .donate-or-hire{
 	background:url(../img/pexels-photo-cutted.jpg) no-repeat center;
 }
-.section_padding_100{
-	padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 /*.tp-dottedoverlay.twoxtwo {
     background: url(../img/gridtile.png);
@@ -91,6 +87,14 @@ p{
 	.section-header{
 		margin-bottom: 1.8em;
 	}
+	
+	.section_padding_large{
+		padding-top:50px;
+		padding-bottom: 50px;
+	}
+	.bar_text-description{
+		text-align: center;
+	}
 
 	.call-to-action{
 		padding-top: 30px;
@@ -98,6 +102,18 @@ p{
     	background:rgb(38, 166, 154);
     	font-size: 1.4em;
     	color: rgba(255, 255, 255, .78);
+	}
+
+	.call-to-action_btn{
+		background: none;
+	    border: 2px solid;
+	    vertical-align: middle;
+	    padding: 10px 20px;
+	}
+	
+	.call-to-action_btn:hover{
+		color:#aed1f7;
+		border:2px solid #aed1f7;
 	}
 
 	.feature{
@@ -120,6 +136,11 @@ p{
 	.navbar-nav > li > a{
 		font-family: 'Anton', 'Arial', sans-serif;
 		font-size:1.8em;
+	}
+
+	.section_padding_large{
+		padding-top: 100px;
+	    padding-bottom: 100px;
 	}
 
 	.section-header{
